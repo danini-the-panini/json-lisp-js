@@ -34,6 +34,10 @@ jsonLispEnv.evaluate(["+", "a", ["-", "b", 2]]) //=> 10
 jsonLispEnv.evaluateJSON('["+", "a", ["-", "b", 2]]') //=> 10
 ```
 
+## See Also
+
+1. [JSON::Lisp gem for Ruby](https://github.com/jellymann/json-lisp-ruby)
+
 ## Development
 
 After checking out the repo, run `npm install` (or `yarn`) to install dependencies. Then, run `npm test` (or `yarn test`) to run the tests.
