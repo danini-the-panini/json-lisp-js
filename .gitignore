@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+# This is a library, do not need to commit lock files
+package-lock.json
+yarn.lock
+

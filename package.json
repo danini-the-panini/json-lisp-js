@@ -1,0 +1,26 @@
+{
+  "name": "json-lisp",
+  "version": "0.1.0",
+  "description": "Execute lisp-like s-expressions written in JSON",
+  "main": "index.js",
+  "module": "index.mjs",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellymann/json-lisp-js.git"
+  },
+  "author": "Daniel Smith <jellymann@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jellymann/json-lisp-js/issues"
+  },
+  "homepage": "https://github.com/jellymann/json-lisp-js#readme",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  },
+  "dependencies": {
+    "@std/esm": "^0.21.7"
+  }
+}
